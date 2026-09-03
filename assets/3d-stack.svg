@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#111827"/></linearGradient><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#6366f1"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-opacity=".4"/></filter></defs>
+<rect width="1200" height="300" rx="24" fill="url(#b)"/>
+<g transform="translate(105 55)" filter="url(#s)">
+<polygon points="120,0 240,70 120,140 0,70" fill="#172554" stroke="#60a5fa"/><polygon points="0,70 120,140 120,220 0,150" fill="#0c2442" stroke="#22d3ee"/><polygon points="240,70 120,140 120,220 240,150" fill="#1e1b4b" stroke="#818cf8"/>
+<circle cx="120" cy="110" r="28" fill="url(#g)"/><circle cx="120" cy="110" r="9" fill="#fff" opacity=".9"/>
+</g>
+<g transform="translate(430 48)" fill="none" stroke-linecap="round">
+<path d="M0 55H640M0 105H560M0 155H610" stroke="#334155" stroke-width="10"/>
+<path d="M0 55H360M0 105H470M0 155H300" stroke="url(#g)" stroke-width="10"/>
+</g>
+<text x="430" y="235" fill="#cbd5e1" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="3">SYSTEMS • VISION • AUTOMATION • PRODUCT</text>
+</svg>
