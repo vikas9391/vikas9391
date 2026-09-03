@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".5" stop-color="#0f172a"/><stop offset="1" stop-color="#172554"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".5"/></filter>
+ <style>
+ .spin{transform-origin:600px 190px;animation:spin 12s linear infinite}.float{animation:float 4s ease-in-out infinite}.scan{animation:scan 3.5s ease-in-out infinite}
+ @keyframes spin{to{transform:rotateY(360deg) rotateZ(360deg)}} @keyframes float{50%{transform:translateY(-10px)}} @keyframes scan{0%,100%{transform:translateX(-180px);opacity:.15}50%{transform:translateX(180px);opacity:.8}}
+ </style>
+</defs>
+<rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+<g opacity=".13" stroke="#94a3b8"><path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200"/><path d="M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420M800 0V420M900 0V420M1000 0V420M1100 0V420"/></g>
+<ellipse cx="600" cy="210" rx="255" ry="150" fill="none" stroke="#2563eb" opacity=".12" stroke-width="2"/>
+<ellipse cx="600" cy="210" rx="190" ry="110" fill="none" stroke="#22d3ee" opacity=".1" stroke-width="2"/>
+<g class="spin" filter="url(#shadow)">
+ <polygon points="600,55 735,132 600,209 465,132" fill="#172554" stroke="url(#edge)" stroke-width="3"/>
+ <polygon points="465,132 600,209 600,365 465,288" fill="#0b1d38" stroke="#22d3ee" stroke-width="2"/>
+ <polygon points="735,132 600,209 600,365 735,288" fill="#1e1b4b" stroke="#6366f1" stroke-width="2"/>
+ <polygon points="600,103 650,132 600,161 550,132" fill="url(#edge)"/>
+ <circle cx="600" cy="132" r="10" fill="#fff" opacity=".9"/>
+</g>
+<g class="float">
+ <text x="600" y="120" text-anchor="middle" fill="#94a3b8" font-family="Arial,Helvetica,sans-serif" font-size="16" letter-spacing="7">WELCOME TO MY PROFILE</text>
+ <text x="600" y="255" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="700" letter-spacing="1">GUMMADALA VIKAS</text>
+ <text x="600" y="292" text-anchor="middle" fill="#7dd3fc" font-family="Arial,Helvetica,sans-serif" font-size="19" letter-spacing="4">AI  /  FULL-STACK  /  SOFTWARE ENGINEERING</text>
+</g>
+<rect class="scan" x="420" y="315" width="360" height="2" rx="1" fill="url(#edge)" filter="url(#glow)"/>
+<text x="600" y="350" text-anchor="middle" fill="#64748b" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="3">BUILDING INTELLIGENT SYSTEMS AND DIGITAL PRODUCTS</text>
+</svg>
