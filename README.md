@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="./assets/3d-hero.svg" alt="Gummadala Vikas — AI and Full-Stack Developer" />
+<img width="100%" src="./assets/animated-3d-name.svg" alt="Gummadala Vikas — animated 3D profile header" />
 
 <br/>
 
@@ -79,15 +79,19 @@ My approach is product-oriented: understand the problem, design the experience, 
 
 ---
 
-## 3D Contribution Profile
+## 3D Contribution Visualization
 
 <div align="center">
 
-<img width="96%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
+<img width="100%" src="./profile-3d-contrib/profile-gitblock.svg" alt="Three-dimensional GitHub contribution calendar" />
 
 </div>
 
-The contribution visualization is generated automatically through GitHub Actions and refreshed on a daily schedule.
+<div align="center">
+
+<sub>Three-dimensional contribution history, generated automatically from GitHub activity.</sub>
+
+</div>
 
 ---
 
